@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/shrutivasave/shrutivasave/static/css/main.7ea0b86c.css",
-    "main.js": "/shrutivasave/shrutivasave/static/js/main.386c3d49.js",
-    "static/js/453.195b869a.chunk.js": "/shrutivasave/shrutivasave/static/js/453.195b869a.chunk.js",
-    "static/media/tomato.png": "/shrutivasave/shrutivasave/static/media/tomato.2f9d5fe2a7d5e9538008.png",
-    "static/media/aboutmef.jpg": "/shrutivasave/shrutivasave/static/media/aboutmef.d0fe74a98a7fb10659a3.jpg",
-    "static/media/cd.png": "/shrutivasave/shrutivasave/static/media/cd.0ca5404d9fd7b725fb33.png",
-    "static/media/phone.png": "/shrutivasave/shrutivasave/static/media/phone.825acdc7603e986fdd3c.png",
-    "static/media/hammer.png": "/shrutivasave/shrutivasave/static/media/hammer.ed97eb927d114d432f17.png",
-    "static/media/projects1.png": "/shrutivasave/shrutivasave/static/media/projects1.45351ce3dc9b3a95b317.png",
-    "static/media/casette.png": "/shrutivasave/shrutivasave/static/media/casette.de5c46f2e249c0a171a6.png",
-    "static/media/workex.png": "/shrutivasave/shrutivasave/static/media/workex.2fcacb89597e947a9907.png",
-    "static/media/folders.png": "/shrutivasave/shrutivasave/static/media/folders.42dec4b942ee12ade478.png",
-    "static/media/Books.png": "/shrutivasave/shrutivasave/static/media/Books.8e2c34f25ea782a072be.png",
-    "static/media/fawn1.png": "/shrutivasave/shrutivasave/static/media/fawn1.596047030949f251624a.png",
-    "index.html": "/shrutivasave/shrutivasave/index.html",
-    "main.7ea0b86c.css.map": "/shrutivasave/shrutivasave/static/css/main.7ea0b86c.css.map",
-    "main.386c3d49.js.map": "/shrutivasave/shrutivasave/static/js/main.386c3d49.js.map",
-    "453.195b869a.chunk.js.map": "/shrutivasave/shrutivasave/static/js/453.195b869a.chunk.js.map"
+    "main.css": "/shrutivasave/static/css/main.7ea0b86c.css",
+    "main.js": "/shrutivasave/static/js/main.4501f91e.js",
+    "static/js/453.195b869a.chunk.js": "/shrutivasave/static/js/453.195b869a.chunk.js",
+    "static/media/tomato.png": "/shrutivasave/static/media/tomato.2f9d5fe2a7d5e9538008.png",
+    "static/media/aboutmef.jpg": "/shrutivasave/static/media/aboutmef.d0fe74a98a7fb10659a3.jpg",
+    "static/media/cd.png": "/shrutivasave/static/media/cd.0ca5404d9fd7b725fb33.png",
+    "static/media/phone.png": "/shrutivasave/static/media/phone.825acdc7603e986fdd3c.png",
+    "static/media/hammer.png": "/shrutivasave/static/media/hammer.ed97eb927d114d432f17.png",
+    "static/media/projects1.png": "/shrutivasave/static/media/projects1.45351ce3dc9b3a95b317.png",
+    "static/media/casette.png": "/shrutivasave/static/media/casette.de5c46f2e249c0a171a6.png",
+    "static/media/workex.png": "/shrutivasave/static/media/workex.2fcacb89597e947a9907.png",
+    "static/media/folders.png": "/shrutivasave/static/media/folders.42dec4b942ee12ade478.png",
+    "static/media/Books.png": "/shrutivasave/static/media/Books.8e2c34f25ea782a072be.png",
+    "static/media/fawn1.png": "/shrutivasave/static/media/fawn1.596047030949f251624a.png",
+    "index.html": "/shrutivasave/index.html",
+    "main.7ea0b86c.css.map": "/shrutivasave/static/css/main.7ea0b86c.css.map",
+    "main.4501f91e.js.map": "/shrutivasave/static/js/main.4501f91e.js.map",
+    "453.195b869a.chunk.js.map": "/shrutivasave/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ea0b86c.css",
-    "static/js/main.386c3d49.js"
+    "static/js/main.4501f91e.js"
   ]
 }
