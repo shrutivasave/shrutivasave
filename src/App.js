@@ -10,7 +10,7 @@ import WorkEx from './components/WorkEx';
 import Skills from './components/skills';
 function App() {
   return (
-    <Router>
+    <Router basename= '/shrutivasave'>
       <div className="App">
         <Header />
         <main>
