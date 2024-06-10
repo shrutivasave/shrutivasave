@@ -1,0 +1,66 @@
+header {
+  width: 100%;
+  background-color: rgb(255, 255, 255); 
+  color: #000000;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure header is above other content */
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center; /* Center the content in the container */
+  align-items: center;
+  position: relative; /* Ensure hamburger menu is positioned correctly */
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: absolute; /* Position hamburger to the left */
+  left: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the nav items */
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+      display: block;
+  }
+
+  nav {
+      display: none;
+      width: 100%;
+  }
+
+  nav.open {
+      display: block;
+  }
+
+  nav ul {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  nav ul li {
+      margin: 1rem 0;
+  }
+}

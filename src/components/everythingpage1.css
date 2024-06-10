@@ -1,0 +1,36 @@
+.everything-page {
+  text-align: center;
+  padding: 2rem;
+  padding-top: 150px;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 800px; /* Adjust the height to fit all images */
+}
+
+.image-wrapper {
+  position: absolute;
+  text-align: center; /* Center align text below each image */
+}
+
+.image-wrapper img {
+  width: 200px;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the transform property */
+}
+
+.image-wrapper img:hover {
+  transform: scale(1.1); /* Slightly enlarge the image on hover */
+}
+
+.caption {
+  margin-top: 0.5rem; /* Adjust the space between image and caption */
+}
+
+.image-wrapper a {
+  display: block; /* Make the link a block element for better alignment */
+  margin-top: 0.5rem; /* Adjust the space between caption and link */
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color */
+}
