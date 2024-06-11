@@ -60,7 +60,7 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  flex-wrap: wrap; 
 }
 
 nav ul li {
@@ -76,7 +76,7 @@ h1 {
   font-size: 3rem;
 }
 
-/* Responsive typography */
+/* Responsive */
 @media (max-width: 768px) {
   h1 {
     font-size: 2rem;
@@ -96,13 +96,13 @@ h1 {
     padding: 0.5rem;
   }
 }
- @supports (-moz-appearance:none) {
+@supports (-moz-appearance:none) {
   main {
     padding-top: 150px; 
   }
 } 
 @supports (-webkit-appearance: none) {
-  .contact-us {
+  main {
     padding-top: 150px;
   }
 }
