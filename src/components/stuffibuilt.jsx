@@ -5,27 +5,27 @@ const projects = [
   {
     title: 'fire detection using computer vision',
     techStack: 'Python, OpenCV, Raspberry Pi',
-    description: 'i engineered a lightweight solution for fire detection with specific focus on fires in outdoor spaces using HAAR cascade classifiers.',
+    description: 'engineered a lightweight solution for fire detection with specific focus on fires in outdoor spaces using HAAR cascade classifiers.',
   },
   {
     title: 'territory-wise social media observer',
     techStack: 'Java Swing, Python, Pandas',
-    description: 'i developed a web app using the Java Swing framework to deploy features like hate speech detection, trend analysis, sentiments analysis of tweets mainly sorted by region.',
+    description: 'developed a web app using the Java Swing framework to deploy features like hate speech detection, trend analysis, sentiments analysis of tweets mainly sorted by region.',
   },
   {
     title: 'a quiz portal for LTI',
     techStack: 'Angular, TypeScript, .NET, C#',
-    description: 'i designed a secure web based application for LTIMindtree empowering seamless creation, customization, and evaluation of quizzes for internal training purposes. it was awarded “Best Project Team” out of all the fresher projects for FY 2020.',
+    description: 'designed a secure web based application for LTIMindtree empowering seamless creation, customization, and evaluation of quizzes for internal training purposes. it was awarded “Best Project Team” out of all the fresher projects for FY 2020.',
   },
   {
     title: 'deep learning in games',
     techStack: 'tensorflow, Python, OpenAI Universe and Gym',
-    description: 'i trained and fine-tuned an AI agent to tackle a variety of flash games with OpenAI’s Gym and Universe.',
+    description: 'trained and fine-tuned an AI agent to tackle a variety of flash games with OpenAI’s Gym and Universe.',
   },
   {
     title: 'foreign object detection on an assembly line',
     techStack: 'tensorflow, Python, RCNN, YOLO',
-    description: 'i conducted a comparative study of two approaches for the detection of foreign objects in an industrial assembly line setting. i published a paper that proposes a complete solution from the findings. the methodologies are vision based and can be used for processing objects conveyed at a constant velocity. the novelty of proposed solution is the possible full automation of the assembly line with low latency and high performance and with a small training data set.',
+    description: 'conducted a comparative study of two approaches for the detection of foreign objects in an industrial assembly line setting. i published a paper that proposes a complete solution from the findings. the methodologies are vision based and can be used for processing objects conveyed at a constant velocity. the novelty of proposed solution is the possible full automation of the assembly line with low latency and high performance and with a small training data set.',
   }
 ];
 

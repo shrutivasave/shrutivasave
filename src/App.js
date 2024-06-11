@@ -8,6 +8,7 @@ import AboutMe from './components/aboutme';
 import StuffIBuilt from './components/stuffibuilt';
 import WorkEx from './components/WorkEx';
 import Skills from './components/skills';
+import EverythingElse from './components/funstuff';
 function App() {
   return (
     <Router basename= '/shrutivasave'>
@@ -21,6 +22,7 @@ function App() {
             <Route path="/projects" element={<StuffIBuilt />} />
             <Route path="/work-experience" element={<WorkEx />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path="/everythingelse" element={<EverythingElse />} />
             {/* <Route path="/contact-us" element={<TalkToMe />} /> */}
           </Routes>
         </main>

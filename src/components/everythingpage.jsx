@@ -33,10 +33,14 @@ const EverythingPage = () => {
         
 
         <div className="image-wrapper" style={isMobile ? { position: 'static', margin: '1rem auto' } : { top: '150px', left: '-20px' }}>
-          <Link to="/resume">
+{/*           <Link to="/resume">
             <img src={folders} alt="resume" />
             <p className="caption">my resume</p>
-          </Link>
+          </Link> */}
+          <a href="https://github.com/shrutivasave/ResumeFullstack/blob/main/svasave_resume.pdf" target="_blank" rel="noopener noreferrer">
+            <img src={folders} alt="resume" />
+            <p className="caption">my resume</p>
+          </a>
         </div>
         <div className="image-wrapper" style={isMobile ? { position: 'static', margin: '1rem auto' } : { top: '50px', left: '180px' }}>
           <Link to="/skills">
