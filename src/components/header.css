@@ -1,3 +1,16 @@
+/* Reset default margins and paddings */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Ensure box-sizing includes padding and border in the element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
 header {
   width: 100%;
   background-color: rgb(255, 255, 255); 
@@ -43,24 +56,24 @@ nav ul li a {
 
 @media (max-width: 768px) {
   .hamburger {
-      display: block;
+    display: block;
   }
 
   nav {
-      display: none;
-      width: 100%;
+    display: none;
+    width: 100%;
   }
 
   nav.open {
-      display: block;
+    display: block;
   }
 
   nav ul {
-      flex-direction: column;
-      text-align: center;
+    flex-direction: column;
+    text-align: center;
   }
 
   nav ul li {
-      margin: 1rem 0;
+    margin: 1rem 0;
   }
 }

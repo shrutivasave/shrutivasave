@@ -7,6 +7,7 @@ const skills = [
   { name: 'CSS', proficiency: 75 },
   { name: 'HTML', proficiency: 80 },
   { name: 'Node.js', proficiency: 70 },
+  { name: 'DevOPs', proficiency: 100 },
   { name: 'Python', proficiency: 100 },
   { name: 'Git', proficiency: 100 },
   { name: 'Java', proficiency: 90 },
@@ -25,7 +26,8 @@ const skills = [
   { name: 'AWS', proficiency: 60 },
   { name: 'Docker', proficiency: 75 },
   { name: 'AS400', proficiency: 100 },
-  { name: 'GCP', proficiency: 70 }
+  { name: 'GCP', proficiency: 70 },
+  { name: 'JIRA', proficiency: 100 }
 ];
 
 const Skills = () => {

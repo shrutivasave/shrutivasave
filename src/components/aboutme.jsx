@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div className="about-me-description">
         <h2>hi! i am shruti.</h2>
         <p>
-          i observe the world and try to create beautiful things. at the moment i live in upstate ny and study cs. i like ai and ml bc it allows me to think abstractly.
+          i observe the world and try to create beautiful things. at the moment i live in upstate ny and study cs. my strengths are being able to think abstractly and creatively. my interests are ai/ml, films, music and art.
         </p>
       </div>
     </div>

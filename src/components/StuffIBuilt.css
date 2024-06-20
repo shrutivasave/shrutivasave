@@ -37,6 +37,11 @@
   line-height: 1.5;
 }
 
+.project a {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .stuff-i-built {
@@ -62,6 +67,9 @@
   }
 
   .project p {
+    font-size: 0.875rem;
+  }
+  .project a {
     font-size: 0.875rem;
   }
 }
@@ -90,6 +98,9 @@
   }
 
   .project p {
+    font-size: 0.75rem;
+  }
+  .project a {
     font-size: 0.75rem;
   }
 }

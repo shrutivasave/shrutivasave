@@ -8,7 +8,10 @@ const Header = () => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
-
+    /*edit to close header on mobile*/
+    const closeMenu = () => {
+        setIsOpen(false);
+    };
     return (
         <header>
             <div className="nav-container">
@@ -17,12 +20,12 @@ const Header = () => {
                 </div>
                 <nav className={isOpen ? "open" : ""}>
                     <ul>
-                        <li><Link to="/">home</Link></li>
-                        <li><Link to="/about">about me</Link></li>
-                        <li><Link to="/work-experience">work experience</Link></li>
-                        <li><Link to="/projects">projects</Link></li>
-                        <li><Link to="/skills">skills</Link></li>
-                        <li><Link to="/contact">contact</Link></li>
+                        <li><Link to="/" onClick={closeMenu}>home</Link></li>
+                        <li><Link to="/about" onClick={closeMenu}>about me</Link></li>
+                        <li><Link to="/work-experience" onClick={closeMenu}>work experience</Link></li>
+                        <li><Link to="/projects" onClick={closeMenu}>projects</Link></li>
+                        <li><Link to="/skills" onClick={closeMenu}>skills</Link></li>
+                        <li><Link to="/contact" onClick={closeMenu}>contact</Link></li>
                     </ul>
                 </nav>
             </div>
