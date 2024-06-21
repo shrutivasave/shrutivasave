@@ -52,6 +52,7 @@
 
   .stuff-i-built h1 {
     font-size: 2rem;
+    padding-top: 50px;
   }
 
   .project {
@@ -83,6 +84,7 @@
 
   .stuff-i-built h1 {
     font-size: 1.75rem;
+    padding-top: 50px;
   }
 
   .project {
