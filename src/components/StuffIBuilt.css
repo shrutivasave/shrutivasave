@@ -6,6 +6,7 @@
 }
 
 .stuff-i-built h1 {
+  padding-top: 20px;
   font-size: 2.5rem;
   margin-bottom: 2rem;
   font-weight: normal;

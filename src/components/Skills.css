@@ -1,6 +1,7 @@
 .skills {
   text-align: center;
   padding: 2rem;
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
 }
 
 .skills-container {
@@ -33,7 +34,7 @@
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .skills {
-    padding-top: 40px;
+    padding-top: 100px;
     padding: 1rem; 
   }
 
@@ -42,23 +43,28 @@
   }
 
   .skill-bubble {
-    width: 80px; 
-    height: 80px;
-    font-size: 0.8rem; 
+    width: 90px; 
+    height: 90px;
+    font-size: 0.9rem; 
   }
 }
 
 @media (max-width: 480px) {
+  .skills {
+    padding: 1rem;
+    padding-top: 100px;
+  }
+
   .skills-container {
-    flex-direction: column;
-    padding-top: 40px;
-    align-items: center; 
+    flex-direction: row;
+    justify-content: center; 
+    gap: 0.5rem;
   }
 
   .skill-bubble {
     margin: 0.5rem 0;
-    width: 70px; 
-    height: 70px; 
+    width: 80px; 
+    height: 80px; 
     font-size: 0.8rem; 
   }
 }

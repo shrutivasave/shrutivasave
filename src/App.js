@@ -9,6 +9,7 @@ import StuffIBuilt from './components/stuffibuilt';
 import WorkEx from './components/WorkEx';
 import Skills from './components/skills';
 import EverythingElse from './components/funstuff';
+import NotFound from './components/notfound';
 function App() {
   return (
     <Router basename= '/shrutivasave'>
@@ -24,6 +25,7 @@ function App() {
             <Route path="/skills" element={<Skills />} />
             <Route path="/everythingelse" element={<EverythingElse />} />
             {/* <Route path="/contact-us" element={<TalkToMe />} /> */}
+            <Route component={NotFound} />
           </Routes>
         </main>
       </div>

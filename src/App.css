@@ -94,7 +94,6 @@ h1 {
 
   main {
     padding: 0.5rem;
-    padding-bottom: 20px; /*new*/
   }
 }
 @supports (-moz-appearance:none) {

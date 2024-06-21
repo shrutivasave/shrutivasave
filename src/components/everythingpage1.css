@@ -2,6 +2,7 @@
   text-align: center;
   padding: 2rem;
   padding-top: 150px;
+  
 }
 
 .image-container {
@@ -33,4 +34,21 @@
   margin-top: 0.5rem; /* Adjust the space between caption and link */
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Inherit text color */
+}
+
+@media (max-width: 768px) {
+  .everything-page {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 150px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .everything-page {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 150px;
+    padding-bottom: 10px;
+  }
 }
